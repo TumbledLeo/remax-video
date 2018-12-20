@@ -1,0 +1,1 @@
+"use strict";$(function(){$(".kai").click(function(){$(".choose").toggle()}),document.onclick=function(t){t||(t=window.event);if(t.srcElement)var e=t.srcElement.getAttribute("id");else e=t.target.getAttribute("id");"pkCity_Show"!=e&&"kai"!=e&&$(".choose").fadeOut()}});
