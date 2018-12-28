@@ -110,25 +110,35 @@
         <div class="wrap_mv cf myvideo">
           <h5>收藏视频</h5>
           <div class=" swiper-container swiper-container11 cf mob_none">
-                <ol class=" swiper-wrapper">
-                  <li class="swiper-slide"><a href="#">
+            <div class="swiper-wrapper">
+                <ol class=" swiper-slide cf">
+                  <li class="left" style="width:50%;"><a href="#" style="display:inline-block;margin:0 auto;">
                     <img src="img/px1.jpg" alt="">
                     <h6>访谈-瑞麦会议讨论全球化</h6>
                     <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
                   </a></li>
-                  <li class="swiper-slide"><a href="#">
-                    <img src="img/px1.jpg" alt="">
-                    <h6>访谈-瑞麦会议讨论全球化</h6>
-                    <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
-                  </a></li>
-                  <li class="swiper-slide"><a href="#">
-                    <img src="img/px1.jpg" alt="">
-                    <h6>访谈-瑞麦会议讨论全球化</h6>
-                    <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
-                  </a></li>
+                  <li class="left" style="width:50%;"><a href="#" style="display:inline-block;margin:0 auto;">
+                      <img src="img/px1.jpg" alt="">
+                      <h6>访谈-瑞麦会议讨论全球化</h6>
+                      <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
+                    </a></li>           
                 </ol>
-                <!-- 如果需要导航按钮 -->
-              <div class="swiper-button-prev"  style="margin-left:20px;"></div>
+                <ol class=" swiper-slide cf">
+                    <li class="left" style="width:50%;overflow: hidden;"><a href="#" style="display:inline-block;margin:0 auto;">
+                      <img src="img/px1.jpg" alt="">
+                      <h6>访谈-瑞麦会议讨论全球化</h6>
+                      <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
+                    </a></li>
+                    <li class="left" style="width:50%;"><a href="#" style="display:inline-block;margin:0 auto;">
+                        <img src="img/px1.jpg" alt="">
+                        <h6>访谈-瑞麦会议讨论全球化</h6>
+                        <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
+                      </a></li>
+                    
+                </ol> 
+              
+            </div>
+            <div class="swiper-button-prev"  style="margin-left:20px;"></div>
               <div class="swiper-button-next" style="margin-right:20px;"></div>
           </div>
           <div class=" swiper-container swiper-container111 cf pc_none">
@@ -163,16 +173,7 @@
                     <h6>访谈-瑞麦会议讨论全球化</h6>
                     <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
                   </a></li>
-                  <li class="swiper-slide"><a href="#">
-                    <img src="img/px1.jpg" alt="">
-                    <h6>访谈-瑞麦会议讨论全球化</h6>
-                    <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
-                  </a></li>
-                  <li class="swiper-slide"><a href="#">
-                    <img src="img/px1.jpg" alt="">
-                    <h6>访谈-瑞麦会议讨论全球化</h6>
-                    <p class="cf"><strong>积分：300</strong><span>视频长度：05:41</span></p>
-                  </a></li>
+                  
                 </ol>
                 <!-- 如果需要导航按钮 -->
               <div class="swiper-button-prev"  style="margin-left:20px;"></div>
@@ -221,8 +222,8 @@
 </footer>
 <script> 
     var mySwiper = new Swiper('.swiper-container11',{
-    slidesPerView : 2,
-    loop:true,
+    // slidesPerView : 2,
+     loop:false,
     // 如果需要前进后退按钮
     navigation: {
           nextEl: '.swiper-button-next',
@@ -233,7 +234,7 @@
   });
   var mySwiper = new Swiper('.swiper-container22',{
     slidesPerView : 2,
-    loop:true,
+    // loop:true,
     // 如果需要前进后退按钮
     navigation: {
           nextEl: '.swiper-button-next',
